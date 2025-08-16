@@ -14,5 +14,5 @@ A simple GUI utility for quickly and efficiently iterating on SMPS designs.
 ```
 python -m pip freeze > requirements.txt
 python -m pip install -r requirements.txt
-pyinstaller --noconfirm --clean --onefile --distpath ../dist --workpath ../build --specpath ../build --name test.exe main.py
+pyinstaller --noconfirm --clean --noconsole --onefile --distpath ../dist --workpath ../build --specpath ../build --name test.exe main.py
 ```
